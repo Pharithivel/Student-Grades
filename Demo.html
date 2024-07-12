@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"> 
+</head>
+<body>
+
+    
+
+    <div id="quoteDisplay">Loading...</div>
+  
+<h1 id="hh"> Student Grade System</h1>
+   
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="cent">
+                <h2> Percentage - <span class="per"></span> % </h2>
+                <h2> Grade -<span class="gra"></span></h2>
+                <h2> Total - <span class="to"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <form action="#" method="post">
+                    <label for="Sub1">Java Programming</label>
+                <input class="lbl" type="number" id="java" placeholder="Java Programming">
+                <!-- <label for="Sub2">Cloud Computing</label> -->
+                <input class="lbl" type="number" id="cloud" placeholder="Cloud Computing">
+                <!-- <label for="Sub3">Software Testing</label> -->
+                <input class="lbl" type="number" id="software" placeholder="Software Testing">
+                <!-- <label for="Sub4">Data Base Management System</label> -->
+                <input class="lbl" type="number" id="database" placeholder="Database Management System">
+                <!-- <label for="Sub5">Data Structure</label> -->
+                <input class="lbl" type="number" id="dstructure" placeholder="Data Structure">
+                <button type="button" onclick="show_result()"> Show Result</button>
+                <button type=button id="newQuoteButton">Refresh me</button>
+            </div>
+        </div>
+        <div class="result">
+            <h2></h2>
+        </div>
+    </div>
+        
+    </form>
+    <!-- Js file -->
+     <script src="jscript.js"></script>
+    <script src="script.js"></script>
+     <!-- <script src="script1.js"></script> -->
+
+</body>
+</html>

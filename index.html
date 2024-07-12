@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"> 
+    <link rel="stylesheet" type="text/css" href="Style1.css"> 
+  
+</head>
+<body>
+    
+   ]
+    <!-- Login Page -->
+    <div class="login-container" id="loginContainer">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p id="loginError" style="color: red; display: none;">Invalid username or password</p>
+    </div>
+    <script src="newscript.js"></script>
+    <!-- Grade System Page -->
+    <div id="gradeContainer" style="display:none;">
+        <h1 id="hh">Student Grade System</h1>
+        
+        <div class="container">
+            <div class="left-box">
+                <h1>Result</h1>
+                <div class="cent">
+                    <h2> Percentage - <span class="per"></span> % </h2>
+                    <h2> Grade -<span class="gra"></span></h2>
+                    <h2> Total - <span class="to"></span></h2>
+                </div>
+            </div>
+            <div class="content">
+                <div class="right-box">
+                    <form action="#" method="post">
+                        <label for="Sub1">Java Programming</label>
+                        <input class="lbl" type="number" id="java" placeholder="Java Programming">
+                        <input class="lbl" type="number" id="cloud" placeholder="Cloud Computing">
+                        <input class="lbl" type="number" id="software" placeholder="Software Testing">
+                        <input class="lbl" type="number" id="database" placeholder="Database Management System">
+                        <input class="lbl" type="number" id="dstructure" placeholder="Data Structure">
+                        <button type="button" onclick="show_result()"> Show Result</button>
+                        <button id="newQuoteButton">Refresh me</button>
+                    </form>
+                </div>
+            </div>
+            <div class="result">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="jscript.js"></script> -->
+    
+    
+    <script src="script2.js"></script>
+    </body>
+    </html>
